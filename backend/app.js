@@ -6,7 +6,7 @@ require("dotenv").config();
 
 // middleware
 const corsOptions = {
-  origin: "https://mernstack-deploy-frontend-c8s8.onrender.com:3000", // frontend URI (ReactJS)
+  origin: "https://mernstack-deploy-frontend-c8s8.onrender.com", // frontend URI (ReactJS)
 };
 app.use(express.json());
 app.use(cors(corsOptions));
